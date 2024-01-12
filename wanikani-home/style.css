@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+#hero{
+    height: 100vh;
+    background-image: url('https://assets.wanikani.com/assets/lander/header-2560x1600-01-0fbe20b163dd148c20c128651129172861c96c2b8c17b6e633fb8157a81178de.jpg');
+    background-size: cover;
+    padding: 20px 20%;
+}
+
+#hero .logo{
+    width: 180px;
+}
+
+.logo-container, .nav-links{
+    display: inline-block;
+}
+
+.nav-links {
+    padding-left: 30%;
+}
+
+.nav-links a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav-links .join-us{
+    background-color: white;
+    color: green;
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+
+#hero-content{
+    margin-top: 20%;
+}
+
+h1, a{
+    color: white;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 24px;
+}
+
+.actions button{
+    border: none;
+    background-color: white;
+    color: green;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+}

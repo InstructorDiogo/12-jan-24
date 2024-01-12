@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(239, 255, 255);
+    padding: 60px;
+}
+
+#cookie-banner {
+    width: 400px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 6px 6px 12px 0 rgba(0, 0, 0, 0.1);
+    font-family: Roboto;
+}
+
+.banner-header h2,
+.banner-header img {
+    display: inline-block;
+}
+
+.banner-header h2 {
+    width: 90%;
+}
+
+.banner-actions button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.cookie-configure {
+    background-color: rgba(173, 216, 230, 0.15);
+    color: rgb(30, 105, 255);
+}
+
+.cookie-confirm {
+    background-color: rgb(30, 105, 255);
+    color: white;
+}
